@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510EDE9520F7ACC6005D424A /* HGLinkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510EDE9420F7ACC6005D424A /* HGLinkController.m */; };
+		510EDEA620F869FA005D424A /* HGLinkBasicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510EDEA520F869FA005D424A /* HGLinkBasicController.m */; };
+		510EDEA920F86AC7005D424A /* HGLinkDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 510EDEA820F86AC7005D424A /* HGLinkDefine.m */; };
 		511281FD20F5E33600D3216F /* HGClassicsSortController.m in Sources */ = {isa = PBXBuildFile; fileRef = 511281FC20F5E33600D3216F /* HGClassicsSortController.m */; };
 		5112820020F5E48B00D3216F /* HGStringController.m in Sources */ = {isa = PBXBuildFile; fileRef = 511281FF20F5E48B00D3216F /* HGStringController.m */; };
 		5112820320F5E60D00D3216F /* HGTTController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5112820220F5E60D00D3216F /* HGTTController.m */; };
@@ -21,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		510EDE9320F7ACC6005D424A /* HGLinkController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGLinkController.h; sourceTree = "<group>"; };
+		510EDE9420F7ACC6005D424A /* HGLinkController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGLinkController.m; sourceTree = "<group>"; };
+		510EDEA420F869F9005D424A /* HGLinkBasicController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGLinkBasicController.h; sourceTree = "<group>"; };
+		510EDEA520F869FA005D424A /* HGLinkBasicController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGLinkBasicController.m; sourceTree = "<group>"; };
+		510EDEA720F86AC7005D424A /* HGLinkDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGLinkDefine.h; sourceTree = "<group>"; };
+		510EDEA820F86AC7005D424A /* HGLinkDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGLinkDefine.m; sourceTree = "<group>"; };
 		511281FB20F5E33600D3216F /* HGClassicsSortController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGClassicsSortController.h; sourceTree = "<group>"; };
 		511281FC20F5E33600D3216F /* HGClassicsSortController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGClassicsSortController.m; sourceTree = "<group>"; };
 		511281FE20F5E48B00D3216F /* HGStringController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGStringController.h; sourceTree = "<group>"; };
@@ -116,6 +125,12 @@
 				51D0530420257AC600693025 /* HomeController.m */,
 				511281FE20F5E48B00D3216F /* HGStringController.h */,
 				511281FF20F5E48B00D3216F /* HGStringController.m */,
+				510EDE9320F7ACC6005D424A /* HGLinkController.h */,
+				510EDE9420F7ACC6005D424A /* HGLinkController.m */,
+				510EDEA720F86AC7005D424A /* HGLinkDefine.h */,
+				510EDEA820F86AC7005D424A /* HGLinkDefine.m */,
+				510EDEA420F869F9005D424A /* HGLinkBasicController.h */,
+				510EDEA520F869FA005D424A /* HGLinkBasicController.m */,
 				511281FB20F5E33600D3216F /* HGClassicsSortController.h */,
 				511281FC20F5E33600D3216F /* HGClassicsSortController.m */,
 				5112820120F5E60D00D3216F /* HGTTController.h */,
@@ -213,11 +228,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				51D0530B2025814A00693025 /* HGAlgorithm.mm in Sources */,
+				510EDEA920F86AC7005D424A /* HGLinkDefine.m in Sources */,
 				5112820020F5E48B00D3216F /* HGStringController.m in Sources */,
+				510EDEA620F869FA005D424A /* HGLinkBasicController.m in Sources */,
 				51D052FA2025799F00693025 /* main.m in Sources */,
 				51D0530520257AC600693025 /* HomeController.m in Sources */,
 				511281FD20F5E33600D3216F /* HGClassicsSortController.m in Sources */,
 				51D052FF20257A2600693025 /* AppDelegate.m in Sources */,
+				510EDE9520F7ACC6005D424A /* HGLinkController.m in Sources */,
 				5112820320F5E60D00D3216F /* HGTTController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

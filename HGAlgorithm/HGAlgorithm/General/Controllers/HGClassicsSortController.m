@@ -9,15 +9,6 @@
 #import "HGClassicsSortController.h"
 #import "HGAlgorithm.h"
 
-// 定义该链表是为了存储不重复出现的单词
-typedef struct _link
-{
-    // 数据
-    char* data;
-    // 下一个指针
-    struct _link* next;
-} Link;
-
 @interface HGClassicsSortController ()
 
 @end
@@ -64,40 +55,6 @@ typedef struct _link
                 [HGAlgorithm removeRepeadtChar:input output:output];
                 
                 NSLog(@"%s_%s", input, output);
-                
-            }
-                break;
-            case 4:
-            {
-                // 单链表反转
-                // 头
-                Link* head = (Link*)malloc(sizeof(Link));
-                head->data = "A(head)";
-                
-                { // 创建其它的节点
-                    head->next = (Link*)malloc(sizeof(Link));
-                    head->next->data = "B";
-                    
-                    head->next->next = (Link*)malloc(sizeof(Link));
-                    head->next->next->data = "C";
-                    
-                    head->next->next->next = (Link*)malloc(sizeof(Link));
-                    head->next->next->next->data = "D";
-                    
-                    head->next->next->next->next = (Link*)malloc(sizeof(Link));
-                    head->next->next->next->next->data = "E";
-                }
-                
-                
-                // 打印单链表
-                [self printWithLink:head];
-                
-                [self reverseWithLink:head];
-                
-                [self printWithLink:head];
-                
-                
-                
                 
             }
                 break;
@@ -157,35 +114,5 @@ typedef struct _link
     [HGAlgorithm printWithArray:array length:5];
 }
 
-// 反转
-- (void)reverseWithLink:(Link*)headeLink {
-    Link *p, *q, *pr;
-    p = headeLink->next;
-    q = NULL;
-    headeLink->next = NULL;
-    
-    while (p) {
-        pr = p->next;
-        p->next = q;
-        q = p;
-        p = pr;
-    }
-    
-    headeLink->next = q;
-}
-
-// 打印
-- (void)printWithLink:(Link*)headeLink {
-    NSMutableArray* tmpArrM = [NSMutableArray array];
-    // 遍历单列表
-    Link* tmpLink = headeLink;
-    
-    while (tmpLink) {
-        [tmpArrM addObject:[NSString stringWithFormat:@"%s", tmpLink->data]];
-        tmpLink = tmpLink->next;
-    }
-    
-    NSLog(@"链表打印: %@", [tmpArrM componentsJoinedByString:@"-->"]);
-}
 
 @end
