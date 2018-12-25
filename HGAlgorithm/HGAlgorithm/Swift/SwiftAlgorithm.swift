@@ -1,9 +1,9 @@
 //
-//   SwiftAlgorithm.swift
-//   HGAlgorithm
+//  SwiftAlgorithm.swift
+//  HGAlgorithm
 //
-//   Created  by hong.zhu on 2018/12/24.
-//   Copyright © 2018年 CoderHG. All rights reserved.
+//  Created  by hong.zhu on 2018/12/24.
+//  Copyright © 2018年 CoderHG. All rights reserved.
 //
 
 import UIKit

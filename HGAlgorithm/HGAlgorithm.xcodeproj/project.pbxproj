@@ -14,6 +14,7 @@
 		5112820020F5E48B00D3216F /* HGStringController.m in Sources */ = {isa = PBXBuildFile; fileRef = 511281FF20F5E48B00D3216F /* HGStringController.m */; };
 		5112820320F5E60D00D3216F /* HGTTController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5112820220F5E60D00D3216F /* HGTTController.m */; };
 		511D5EE321D13661004A456F /* SwiftAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511D5EE221D13661004A456F /* SwiftAlgorithm.swift */; };
+		511D5EE821D1BE9C004A456F /* HGFibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = 511D5EE721D1BE9C004A456F /* HGFibonacci.m */; };
 		51D052F72025799F00693025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51D052F02025799F00693025 /* Assets.xcassets */; };
 		51D052F82025799F00693025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D052F12025799F00693025 /* LaunchScreen.storyboard */; };
 		51D052F92025799F00693025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D052F32025799F00693025 /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 		5112820220F5E60D00D3216F /* HGTTController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGTTController.m; sourceTree = "<group>"; };
 		511D5EE121D13660004A456F /* HGAlgorithm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HGAlgorithm-Bridging-Header.h"; sourceTree = "<group>"; };
 		511D5EE221D13661004A456F /* SwiftAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlgorithm.swift; sourceTree = "<group>"; };
+		511D5EE621D1BE9C004A456F /* HGFibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGFibonacci.h; sourceTree = "<group>"; };
+		511D5EE721D1BE9C004A456F /* HGFibonacci.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGFibonacci.m; sourceTree = "<group>"; };
 		51D052D62025795E00693025 /* HGAlgorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGAlgorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D052F02025799F00693025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51D052F22025799F00693025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -163,6 +166,8 @@
 			children = (
 				51D0530720257EA800693025 /* HGAlgorithm.h */,
 				51D0530A2025814A00693025 /* HGAlgorithm.mm */,
+				511D5EE621D1BE9C004A456F /* HGFibonacci.h */,
+				511D5EE721D1BE9C004A456F /* HGFibonacci.m */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -244,6 +249,7 @@
 				5112820020F5E48B00D3216F /* HGStringController.m in Sources */,
 				511D5EE321D13661004A456F /* SwiftAlgorithm.swift in Sources */,
 				510EDEA620F869FA005D424A /* HGLinkBasicController.m in Sources */,
+				511D5EE821D1BE9C004A456F /* HGFibonacci.m in Sources */,
 				51D052FA2025799F00693025 /* main.m in Sources */,
 				51D0530520257AC600693025 /* HomeController.m in Sources */,
 				511281FD20F5E33600D3216F /* HGClassicsSortController.m in Sources */,
